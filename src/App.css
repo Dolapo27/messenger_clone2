@@ -1,0 +1,34 @@
+.img{
+  width: fit-content;
+}
+
+.App {
+  text-align: center;
+}
+
+.app_form{
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color:gainsboro;
+  width: 90%;
+  margin: 20px;
+}
+/*****!important is used to overite*******/
+/*****display-flex is used to style children inside a parent component*******/
+/*****flex-direction is used to move the direction of the children  *******/
+
+.app_formControl{
+  display: flex !important;
+  flex-direction:row !important;
+}
+/*****flex:1 allows you to take almost the entire width of the page*******/
+/*****flex:0 allows you to take remaining space left from the entire width of the page*******/
+.app_Input{
+  flex: 1;
+}
+
+.app_IconButton{
+  flex: 0;
+}
